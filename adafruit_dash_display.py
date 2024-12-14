@@ -24,7 +24,7 @@ Implementation Notes
 """
 try:
     from typing import Tuple, Callable, Optional, Any
-            from adafruit_io.adafruit_io import IO_MQTT
+    from adafruit_io.adafruit_io import IO_MQTT
     from digitalio import DigitalInOut
 except ImportError:
     pass
